@@ -1,0 +1,11 @@
+<view class="container">
+    <text>欢迎进入登陆商城界面</text>
+    <input type="number" class ="phone_number" bindblur="getPhone" placeholder="请输入手机号码"></input>
+    <view class ="code">
+      <input class ="code_number" bindblur="getCode" placeholder="请输入验证码"></input>
+      <button class ="btn_code">点击获取验证码</button>
+    </view>
+    <view>
+      <button bindtap="login" class="btn_login">商城登录</button>
+    </view>
+</view>
